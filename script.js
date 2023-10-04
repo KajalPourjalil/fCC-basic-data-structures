@@ -47,8 +47,7 @@ console.log(htmlColorNames(['DarkGoldenRod', 'WhiteSmoke', 'LavenderBlush', 'Pal
 
 function forecast(arr) {
   // Only change code below this line
-arr.slice(2,1);
-  return arr;
+return arr.slice(2,4);
 }
 
 // Only change code above this line
