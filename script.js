@@ -166,7 +166,7 @@ let foods = {
 
 function checkInventory(scannedItem) {
   // Only change code below this line
-
+  return foods[scannedItem];
   // Only change code above this line
 }
 
