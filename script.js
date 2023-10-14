@@ -171,3 +171,9 @@ function checkInventory(scannedItem) {
 }
 
 console.log(checkInventory("apples"));
+
+delete foods.oranges;
+delete foods.plums;
+delete foods.strawberries;
+
+console.log(foods);
