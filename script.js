@@ -199,7 +199,9 @@ let users = {
 
 function isEveryoneHere(userObj) {
   // Only change code below this line
-  userObj.hasOwnProperty('Alan', 'Jeff', 'Sarah', 'Ryan');
+  return userObj.hasOwnProperty('Alan', 'Jeff', 'Sarah', 'Ryan');
+
+  // return 'Alan', 'Jeff', 'Sarah', 'Ryan' in userObj;
   // Only change code above this line
 }
 
