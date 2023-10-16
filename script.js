@@ -206,3 +206,13 @@ function isEveryoneHere(userObj) {
 }
 
 console.log(isEveryoneHere(users));
+
+function countOnline(allUsers) {
+  // Only change code below this line
+  for (const users in allUsers) {
+    return allUsers.online;
+  }
+  // Only change code above this line
+}
+
+console.log(countOnline(users));
