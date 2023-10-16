@@ -209,9 +209,13 @@ console.log(isEveryoneHere(users));
 
 function countOnline(allUsers) {
   // Only change code below this line
-  for (const users in allUsers) {
-    return allUsers.online;
+  let result = 0;
+  for (let user in allUsers) {
+    if (allUsers[user].online === true) {
+      result++;
+    }
   }
+  return result;
   // Only change code above this line
 }
 
